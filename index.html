@@ -263,5 +263,16 @@
     </section>
 
     <section id="contact"></section>
+
+    <script>
+      function downloadPDF() {
+        const link = document.createElement("a");
+        link.href = "./files/updated_resume2024.pdf"; // Replace with your PDF file path
+        link.download = "updated_resume2024.pdf"; // Optional: specify a default filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
   </body>
 </html>
