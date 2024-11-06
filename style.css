@@ -62,18 +62,18 @@ z-index: 1;
 
 .title {
   font-size: 25px;
-  overflow: hidden; /* Ensures the text is hidden until it appears */
-  white-space: nowrap; /* Prevents the text from wrapping */
-  letter-spacing: 2px; /* Adds space between letters */
-  animation: typing 3s; /* Typewriter and blinking cursor effects */
+  overflow: hidden; 
+  white-space: nowrap; 
+  letter-spacing: 2px; 
+  animation: typing 3s; 
 }
 
 @keyframes typing {
   from {
-      width: 0; /* Start with no width */
+      width: 0; 
   }
   to {
-      width: 100%; /* Expand to full width */
+      width: 100%; 
   }
 }
 
