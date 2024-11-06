@@ -3,6 +3,7 @@
   margin: 0;
   font-family: "Aldrich", sans-serif;
   font-weight: bold;
+  scroll-behavior: smooth;
 }
 
 .background {
@@ -86,4 +87,8 @@ z-index: 1;
 .profile-img {
   border-radius: 50%;
   height: 200px;
+}
+
+.error{
+  color: red;
 }
