@@ -92,3 +92,22 @@ z-index: 1;
 .error{
   color: red;
 }
+
+.my-5 {
+  margin-bottom: 0 !important;
+}
+.p-5 {
+  padding-bottom: 0 !important;
+}
+.spacer{
+  padding-bottom: 100px !important;
+}
+
+.blink {
+  animation: blink-animation .7s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
